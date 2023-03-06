@@ -1,4 +1,4 @@
-# UIT AI CHALLANGE 2022 - TEAM: HERMES
+# UIT AI CHALLANGE 2022
 ## 1. Create container
 #### DBNetpp:
 `docker run --mount type=bind,source={path/to/uaic2022_submit},target=/workspace/ --name Hermes_uaic2022_sangdn_dpnetpp -it --gpus all --cpus 20 --shm-size=2gb  21522542/mmocr_hermes:v1`
